@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interna Style</title>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: #434e52;
+        }
+
+        #container {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(auto, 250px));
+            grid-template-rows: repeat(2, minmax(250px, auto));
+            grid-gap: 50px;
+            justify-content: center;
+        }
+
+        /* #first, #second, #third, #fourth {
+            width: 250px;
+            height: 250px;
+        } */
+
+        #first {
+            background-color: #c81912;
+        }
+        #second {
+            background-color: #142850;
+        }
+        #third {
+            background-color: #40e0d0;
+        }
+        #fourth {
+            background-color: #ffd800;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <div id="first"></div>
+        <div id="second"></div>
+        <div id="third"></div>
+        <div id="fourth"></div>
+    </div>
+</body>
+</html>
